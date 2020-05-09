@@ -53,8 +53,10 @@ const Article = ({ article, excerpt }) => {
         {excerpt ? `${post.slice(0, 140)}...` : post}
       </p>
       <cite>
-        <img className={favicon} src={`https://api.faviconkit.com/${rawUrl}/144`} alt={`${rawUrl} logo.`} />{` — ${author}, `}<a href={sourceUrl}>{source}</a></cite>
-      | <h6 className={shares}>
+        <img className={favicon} src={`https://api.faviconkit.com/${rawUrl}/144`} alt={`${rawUrl} logo.`} />{` — ${author}, `}<a href={sourceUrl}>{source}</a>
+      </cite>
+      {` `}
+      <h6 className={shares} title="The amount of times this article has been mentioned on social media">
         {isLoaded === true ?
           (
             new Intl.NumberFormat().format(items['Facebook']['share_count'])

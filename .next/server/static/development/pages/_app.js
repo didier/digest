@@ -238,7 +238,7 @@ const App = ({
   title: title,
   description: description,
   openGraph: {
-    url: 'https://tensharp.com',
+    url: 'https://digest-delta.now.sh',
     title: name,
     description,
     site_name: name

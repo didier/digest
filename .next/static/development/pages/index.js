@@ -740,7 +740,7 @@ var steps = (function (steps, direction) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, ".Article_post__tXNV8 {\n  margin: 1rem 0; }\n  .Article_post__tXNV8 h2 {\n    margin-bottom: 1em;\n    margin-top: 0; }\n\n.Article_favicon__1IBxL {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch; }\n\n.Article_shares__2pXIB {\n  display: block; }\n", "",{"version":3,"sources":["Article.module.scss"],"names":[],"mappings":"AAAA;EACE,cAAc,EAAA;EADhB;IAII,kBAAkB;IAClB,aAAa,EAAA;;AAIjB;EACE,oBAAoB;EACpB,eAAe;EACf,mBAAmB,EAAA;;AAGrB;EACE,cAAc,EAAA","file":"Article.module.scss","sourcesContent":[".post {\n  margin: 1rem 0;\n\n  h2 {\n    margin-bottom: 1em;\n    margin-top: 0;\n  }\n}\n\n.favicon {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch;\n}\n\n.shares {\n  display: block;\n\n}\n"]}]);
+exports.push([module.i, ".Article_post__tXNV8 {\n  margin: 1rem 0; }\n  .Article_post__tXNV8 h2 {\n    margin-bottom: 1em;\n    margin-top: 0; }\n\n.Article_favicon__1IBxL {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch; }\n\n.Article_shares__2pXIB {\n  text-align: right;\n  float: right;\n  font-feature-settings: \"tnum\";\n  font-variant-numeric: tabular-nums; }\n", "",{"version":3,"sources":["Article.module.scss"],"names":[],"mappings":"AAAA;EACE,cAAc,EAAA;EADhB;IAII,kBAAkB;IAClB,aAAa,EAAA;;AAIjB;EACE,oBAAoB;EACpB,eAAe;EACf,mBAAmB,EAAA;;AAGrB;EACE,iBAAiB;EACjB,YAAY;EACZ,6BAAkC;EAAlC,kCAAkC,EAAA","file":"Article.module.scss","sourcesContent":[".post {\n  margin: 1rem 0;\n\n  h2 {\n    margin-bottom: 1em;\n    margin-top: 0;\n  }\n}\n\n.favicon {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch;\n}\n\n.shares {\n  text-align: right;\n  float: right;\n  font-variant-numeric: tabular-nums;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"post": "Article_post__tXNV8",
@@ -11047,13 +11047,14 @@ var Article = function Article(_ref) {
       lineNumber: 56,
       columnNumber: 127
     }
-  }, source)), "| ", __jsx("h6", {
+  }, source)), " ", __jsx("h6", {
     className: _Article_module_scss__WEBPACK_IMPORTED_MODULE_1__["shares"],
+    title: "The amount of times this article has been mentioned on social media",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 9
+      lineNumber: 59,
+      columnNumber: 7
     }
   }, isLoaded === true ? new Intl.NumberFormat().format(items['Facebook']['share_count']) : 'Loading', " shares", isLoaded === true ? null : '...'));
 };

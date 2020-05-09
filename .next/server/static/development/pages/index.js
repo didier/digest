@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -226,13 +226,14 @@ const Article = ({
       lineNumber: 56,
       columnNumber: 127
     }
-  }, source)), "| ", __jsx("h6", {
+  }, source)), ` `, __jsx("h6", {
     className: _Article_module_scss__WEBPACK_IMPORTED_MODULE_1__["shares"],
+    title: "The amount of times this article has been mentioned on social media",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 9
+      lineNumber: 59,
+      columnNumber: 7
     }
   }, isLoaded === true ? new Intl.NumberFormat().format(items['Facebook']['share_count']) : 'Loading', " shares", isLoaded === true ? null : '...'));
 };
@@ -448,7 +449,7 @@ const Home = props => __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__["motion"]
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!**********************************!*\
   !*** multi ./src/pages/index.js ***!
   \**********************************/
