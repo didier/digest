@@ -1,3 +1,5 @@
+const https = require('https');
+
 module.exports = (req, res) => {
   const API_KEY = process.env.SHAREDCOUNT_API_KEY
 
@@ -26,8 +28,9 @@ module.exports = (req, res) => {
           throw new Error(error)
         }
       )
-
-
-    res.send(shares)
   }
+
+
+
+  res.status(200).json({ shares })
 }
