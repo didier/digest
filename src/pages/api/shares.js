@@ -3,34 +3,23 @@ const https = require('https');
 module.exports = (req, res) => {
   const API_KEY = process.env.SHAREDCOUNT_API_KEY
 
-  const { query: { url } } = req
-  if (url !== '') {
+  // const { query: { url } } = req
 
-    let shares = {}
+  https.get(`https://api.sharedcount.com/v1.0/?apikey=${API_KEY}&url=${url}`, (res) => {
+    let data = '';
 
-    fetch(`https://api.sharedcount.com/v1.0/?apikey=${API_KEY}&url=${url}`)
-      .then(res => res.json())
-      .then(
-        (result) => {
-          // console.log(result);
+    // A chunk of data has been recieved.
+    res.on('data', (chunk) => {
+      data += chunk;
+    });
 
-          // setIsLoaded(true);
-          shares = result
-          // setItems(result);
-          // setShares(items.Facebook + items.Pinterest)
-        },
-        // Note: it's important to handle errors here
-        // instead of a catch() block so that we don't swallow
-        // exceptions from actual bugs in components.
-        (error) => {
-          // setIsLoaded(true);
-          // setError(error);
-          throw new Error(error)
-        }
-      )
-  }
+    // The whole response has been received. Print out the result.
+    res.on('end', () => {
+      console.log(JSON.parse(data));
+    });
 
-
-
-  res.status(200).json({ shares })
+  }).on("error", (err) => {
+    console.log("Error: " + err.message);
+  });
+  // res.status(200).json({ shares })
 }
