@@ -6,7 +6,7 @@ import Footer from '../components/molecules/Footer';
 
 const articles = [
   {
-    title: `Pentagon confirms UFOs.`,
+    title: `Pentagon officially releases UFO videos.`,
     url: 'https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos/index.html',
 
     author: 'Michael Conte',
