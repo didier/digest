@@ -1,8 +1,11 @@
 module.exports = (req, res) => {
+  const API_KEY = process.env.SHAREDCOUNT_API_KEY
+
   const { query: { url } } = req
   if (url !== '') {
 
-    let shares;
+    let shares = {}
+
     fetch(`https://api.sharedcount.com/v1.0/?apikey=${API_KEY}&url=${url}`)
       .then(res => res.json())
       .then(
@@ -10,7 +13,7 @@ module.exports = (req, res) => {
           // console.log(result);
 
           // setIsLoaded(true);
-          let shares = result
+          shares = result
           // setItems(result);
           // setShares(items.Facebook + items.Pinterest)
         },
@@ -25,6 +28,6 @@ module.exports = (req, res) => {
       )
 
 
+    res.send(shares)
   }
-  res.send(`Query: ${url}`)
 }
