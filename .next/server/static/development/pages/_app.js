@@ -123,9 +123,9 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
  // Styles
 
 
-const name = 'Ten Sharp';
-const description = `The band behind 'You'`;
-const title = `Ten Sharp — The Band behind 'You'.`; // <Component/> returns the component it self
+const name = 'Digest';
+const description = `News you might've missed`;
+const title = `${name} — ${description}`; // <Component/> returns the component it self
 // pageProps returns the props you use to in that component. It can be any data
 // router.route returns the route your component lives on. So in our case it will be '/' or '/products/[id]'
 // exitBeforeEnter: AnimatePresence will only render one component at a time. The exiting component will finished its exit animation before the entering component is rendered
@@ -135,95 +135,105 @@ const App = ({
   pageProps,
   router
 }) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
-  },
-  __self: undefined
+    lineNumber: 20,
+    columnNumber: 5
+  }
 }, __jsx("link", {
   href: "https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap",
   rel: "stylesheet",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
+    lineNumber: 21,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "shortcut icon",
   href: "/img/favicon/favicon-32.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
-  },
-  __self: undefined
+    lineNumber: 22,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "128x128",
   href: "/img/favicon/favicon-128.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
-  },
-  __self: undefined
+    lineNumber: 23,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "152x152",
   href: "/img/favicon/favicon-152.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
-  },
-  __self: undefined
+    lineNumber: 24,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "167x167",
   href: "/img/favicon/favicon-167.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
+    lineNumber: 25,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "180x180",
   href: "/img/favicon/favicon-180.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
+    lineNumber: 26,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "192x192",
   href: "/img/favicon/favicon-192.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
+    lineNumber: 27,
+    columnNumber: 7
+  }
 }), __jsx("link", {
   rel: "icon",
   type: "image/png",
   sizes: "196x196",
   href: "/img/favicon/favicon-196.png",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
-  },
-  __self: undefined
+    lineNumber: 28,
+    columnNumber: 7
+  }
 }), __jsx("meta", {
   name: "viewport",
   content: "width=device-width, initial-scale=1.0",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
-  },
-  __self: undefined
+    lineNumber: 29,
+    columnNumber: 7
+  }
 })), __jsx(next_seo__WEBPACK_IMPORTED_MODULE_2__["NextSeo"], {
   title: title,
   description: description,
@@ -233,25 +243,28 @@ const App = ({
     description,
     site_name: name
   },
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
+    lineNumber: 31,
+    columnNumber: 5
+  }
 }), __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_3__["AnimatePresence"], {
   exitBeforeEnter: true,
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
-  },
-  __self: undefined
+    lineNumber: 42,
+    columnNumber: 5
+  }
 }, __jsx(Component, _extends({}, pageProps, {
   key: router.route,
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
-  },
-  __self: undefined
+    lineNumber: 43,
+    columnNumber: 7
+  }
 }))));
 
 /* harmony default export */ __webpack_exports__["default"] = (App);

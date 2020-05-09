@@ -6,9 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 // Styles
 import '../styles/main.scss'
 
-const name = 'Ten Sharp'
-const description = `The band behind 'You'`
-const title = `Ten Sharp — The Band behind 'You'.`
+const name = 'Digest'
+const description = `News you might've missed`
+const title = `${name} — ${description}`
 
 // <Component/> returns the component it self
 // pageProps returns the props you use to in that component. It can be any data
