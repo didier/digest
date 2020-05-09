@@ -1,0 +1,38 @@
+$background: black;
+$text: darken(white, 10%);
+$text: white;
+$lightText: grey;
+$shade: darken($lightText, 40%);
+
+$padding: 5%;
+$margin: 10%;
+$width: 50%;
+
+$easing: cubic-bezier(.86, 0, .07, 1);
+$small: 768px;
+$medium: 960px;
+$large: 1920px;
+$ultrawide: 2160px;
+
+$delay: 1.2s;
+$zoom: 130%;
+
+$font-fallbacks: 'Inter', -apple-system, blinkmacsystemfont, 'Helvetica Neue', helvetica, roboto, 'Segoe UI', oxygen, ubuntu, cantarell, 'Open Sans';
+
+$gray: #403F4C;
+$light-gray: #59656F;
+$beige: #C4A69D;
+$black: #000;
+$white: #fff;
+
+$accent-dark: $light-gray;
+$accent-light: $beige;
+// Breakpoints
+$bp-mobile-sm: 320px;
+$bp-mobile-md: 375px;
+$bp-mobile-lg: 414px;
+$bp-tablet-sm: 562px;
+$bp-tablet-md: 768px;
+$bp-desktop-sm: 1120px;
+$bp-desktop-md: 1280px;
+$bp-desktop-lg: 1536px;

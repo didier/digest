@@ -1,0 +1,16 @@
+.music {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+
+    @media screen and (max-width: $bp-desktop-sm) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: $bp-tablet-sm) {
+
+      grid-template-columns: 1fr;
+    }
+  }
+}

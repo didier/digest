@@ -1,0 +1,36 @@
+// @import url('https://rsms.me/inter/inter.css');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  font-family: $font-fallbacks, sans-serif;
+  // font-size: 20px;
+  background: white;
+  color: black;
+}
+
+a,
+a:visited {
+  cursor: pointer;
+  color: currentColor;
+  border-bottom: 1px solid $accent-light;
+  text-decoration: none;
+  background-image: linear-gradient($accent-light, $accent-light);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+
+  &:hover,
+  &:focus {
+    background-size: 100% 2px;
+  }
+}

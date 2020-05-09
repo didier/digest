@@ -1,0 +1,77 @@
+@import './variables';
+
+body {
+  // font-size: 20px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 6.854rem;
+  font-size: 7.594rem;
+  line-height: 1;
+  font-weight: 700;
+
+  @media screen and (max-width: $bp-tablet-sm) {
+    font-size: 2.618rem;
+    line-height: 1.25;
+  }
+
+  letter-spacing: -.04em;
+  max-width: 25ch;
+  margin-bottom: .5ch;
+}
+
+h2 {
+  font-size: 2.618rem;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: -.025em;
+
+  @media screen and (max-width: $bp-tablet-sm) {
+    font-size: 1.618rem;
+    line-height: 1.35;
+  }
+
+  margin-top: 2rem;
+  margin-bottom: .5ch;
+  max-width: 35ch;
+}
+
+h3 {
+  font-size: 1.618rem;
+  line-height: 1.35;
+  font-weight: 500;
+
+  @media screen and (max-width: $bp-tablet-sm) {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  max-width: 45ch;
+  margin-bottom: .5ch;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: .5ch;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+
+  @media screen and (min-width: $bp-tablet-sm) {
+    max-width: 65ch;
+  }
+  margin-bottom: 1ch;
+}

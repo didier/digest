@@ -1,0 +1,17 @@
+.photos {
+  column-count: 4;
+  column-gap: 2rem;
+
+  @media screen and (max-width: $bp-desktop-sm) {
+    column-count: 2;
+  }
+
+  @media screen and (max-width: $bp-tablet-sm) {
+    column-count: 1;
+  }
+
+  img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}
