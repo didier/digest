@@ -1,9 +1,10 @@
 .post {
   margin: 1rem 0;
 
-  h2 {
+  > h2 {
     margin-bottom: 1em;
     margin-top: 0;
+    display: block;
   }
 }
 
@@ -17,4 +18,8 @@
   text-align: right;
   float: right;
   font-variant-numeric: tabular-nums;
+}
+
+.cite {
+  display: inline-block
 }

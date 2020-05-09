@@ -740,12 +740,13 @@ var steps = (function (steps, direction) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, ".Article_post__tXNV8 {\n  margin: 1rem 0; }\n  .Article_post__tXNV8 h2 {\n    margin-bottom: 1em;\n    margin-top: 0; }\n\n.Article_favicon__1IBxL {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch; }\n\n.Article_shares__2pXIB {\n  text-align: right;\n  float: right;\n  font-feature-settings: \"tnum\";\n  font-variant-numeric: tabular-nums; }\n", "",{"version":3,"sources":["Article.module.scss"],"names":[],"mappings":"AAAA;EACE,cAAc,EAAA;EADhB;IAII,kBAAkB;IAClB,aAAa,EAAA;;AAIjB;EACE,oBAAoB;EACpB,eAAe;EACf,mBAAmB,EAAA;;AAGrB;EACE,iBAAiB;EACjB,YAAY;EACZ,6BAAkC;EAAlC,kCAAkC,EAAA","file":"Article.module.scss","sourcesContent":[".post {\n  margin: 1rem 0;\n\n  h2 {\n    margin-bottom: 1em;\n    margin-top: 0;\n  }\n}\n\n.favicon {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch;\n}\n\n.shares {\n  text-align: right;\n  float: right;\n  font-variant-numeric: tabular-nums;\n}\n"]}]);
+exports.push([module.i, ".Article_post__tXNV8 {\n  margin: 1rem 0; }\n  .Article_post__tXNV8 > h2 {\n    margin-bottom: 1em;\n    margin-top: 0;\n    display: block; }\n\n.Article_favicon__1IBxL {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch; }\n\n.Article_shares__2pXIB {\n  text-align: right;\n  float: right;\n  font-feature-settings: \"tnum\";\n  font-variant-numeric: tabular-nums; }\n\n.Article_cite__3yo9o {\n  display: inline-block; }\n", "",{"version":3,"sources":["Article.module.scss"],"names":[],"mappings":"AAAA;EACE,cAAc,EAAA;EADhB;IAII,kBAAkB;IAClB,aAAa;IACb,cAAc,EAAA;;AAIlB;EACE,oBAAoB;EACpB,eAAe;EACf,mBAAmB,EAAA;;AAGrB;EACE,iBAAiB;EACjB,YAAY;EACZ,6BAAkC;EAAlC,kCAAkC,EAAA;;AAGpC;EACE,qBACF,EAAA","file":"Article.module.scss","sourcesContent":[".post {\n  margin: 1rem 0;\n\n  > h2 {\n    margin-bottom: 1em;\n    margin-top: 0;\n    display: block;\n  }\n}\n\n.favicon {\n  border-radius: 100px;\n  max-height: 1em;\n  margin-right: .25ch;\n}\n\n.shares {\n  text-align: right;\n  float: right;\n  font-variant-numeric: tabular-nums;\n}\n\n.cite {\n  display: inline-block\n}"]}]);
 // Exports
 exports.locals = {
 	"post": "Article_post__tXNV8",
 	"favicon": "Article_favicon__1IBxL",
-	"shares": "Article_shares__2pXIB"
+	"shares": "Article_shares__2pXIB",
+	"cite": "Article_cite__3yo9o"
 };
 module.exports = exports;
 
@@ -11014,15 +11015,8 @@ var Article = function Article(_ref) {
       lineNumber: 51,
       columnNumber: 11
     }
-  }, title)), __jsx("p", {
-    className: "excerpt",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 7
-    }
-  }, excerpt ? "".concat(post.slice(0, 140), "...") : post), __jsx("cite", {
+  }, title)), __jsx("cite", {
+    className: _Article_module_scss__WEBPACK_IMPORTED_MODULE_1__["cite"],
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -11172,7 +11166,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.module.scss */ "./src/components/molecules/Footer/Footer.module.scss");
 /* harmony import */ var _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/didier/Projects/digest/src/components/molecules/Footer/index.js";
+var _this = undefined,
+    _jsxFileName = "/Users/didier/Projects/digest/src/components/molecules/Footer/index.js";
+
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -11180,18 +11176,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Footer = function Footer() {
   return __jsx("footer", {
     className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__["footer"],
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
+      lineNumber: 4,
+      columnNumber: 3
+    }
   }, "All content belongs to the respective authors/owners. Made by ", __jsx("a", {
-    href: "https://didiercatz.com",
+    href: "https://twitter.com/didiercatz",
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
+      lineNumber: 5,
+      columnNumber: 67
+    }
   }, "Didier Catz"));
 };
 
@@ -11357,7 +11355,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/molecules/Article */ "./src/components/molecules/Article/index.js");
 /* harmony import */ var _components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/molecules/Header/index */ "./src/components/molecules/Header/index.js");
 /* harmony import */ var _components_molecules_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules/Footer */ "./src/components/molecules/Footer/index.js");
-var _jsxFileName = "/Users/didier/Projects/digest/src/pages/index.js";
+var _this = undefined,
+    _jsxFileName = "/Users/didier/Projects/digest/src/pages/index.js";
+
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -11366,7 +11366,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var articles = [{
-  title: "Pentagon confirms UFOs.",
+  title: "Pentagon officially releases UFO videos.",
   url: 'https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos/index.html',
   author: 'Michael Conte',
   source: 'CNN',
@@ -11386,52 +11386,59 @@ var Home = function Home(props) {
     exit: {
       opacity: 0
     },
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
+      lineNumber: 31,
+      columnNumber: 3
+    }
   }, __jsx(_components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
+      lineNumber: 32,
+      columnNumber: 5
+    }
   }), __jsx("main", {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
+      lineNumber: 33,
+      columnNumber: 5
+    }
   }, __jsx("ul", {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
+      lineNumber: 34,
+      columnNumber: 7
+    }
   }, articles.map(function (article, idx) {
     return __jsx("li", {
       key: idx,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
-      },
-      __self: this
+        lineNumber: 36,
+        columnNumber: 11
+      }
     }, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
       article: article,
       excerpt: true,
+      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
-      },
-      __self: this
+        lineNumber: 37,
+        columnNumber: 13
+      }
     }));
   }))), __jsx(_components_molecules_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
+      lineNumber: 42,
+      columnNumber: 5
+    }
   }));
 };
 

@@ -104,7 +104,8 @@ module.exports =
 module.exports = {
 	"post": "Article_post__tXNV8",
 	"favicon": "Article_favicon__1IBxL",
-	"shares": "Article_shares__2pXIB"
+	"shares": "Article_shares__2pXIB",
+	"cite": "Article_cite__3yo9o"
 };
 
 
@@ -193,15 +194,8 @@ const Article = ({
       lineNumber: 51,
       columnNumber: 11
     }
-  }, title)), __jsx("p", {
-    className: "excerpt",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 7
-    }
-  }, excerpt ? `${post.slice(0, 140)}...` : post), __jsx("cite", {
+  }, title)), __jsx("cite", {
+    className: _Article_module_scss__WEBPACK_IMPORTED_MODULE_1__["cite"],
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -277,18 +271,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Footer = () => __jsx("footer", {
   className: _Footer_module_scss__WEBPACK_IMPORTED_MODULE_1__["footer"],
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
+    lineNumber: 4,
+    columnNumber: 3
+  }
 }, "All content belongs to the respective authors/owners. Made by ", __jsx("a", {
-  href: "https://didiercatz.com",
+  href: "https://twitter.com/didiercatz",
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
+    lineNumber: 5,
+    columnNumber: 67
+  }
 }, "Didier Catz"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -380,7 +376,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const articles = [{
-  title: `Pentagon confirms UFOs.`,
+  title: `Pentagon officially releases UFO videos.`,
   url: 'https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos/index.html',
   author: 'Michael Conte',
   source: 'CNN',
@@ -399,50 +395,57 @@ const Home = props => __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__["motion"]
   exit: {
     opacity: 0
   },
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
+    lineNumber: 31,
+    columnNumber: 3
+  }
 }, __jsx(_components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
-  },
-  __self: undefined
+    lineNumber: 32,
+    columnNumber: 5
+  }
 }), __jsx("main", {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
-  },
-  __self: undefined
+    lineNumber: 33,
+    columnNumber: 5
+  }
 }, __jsx("ul", {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
+    lineNumber: 34,
+    columnNumber: 7
+  }
 }, articles.map((article, idx) => __jsx("li", {
   key: idx,
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
-  },
-  __self: undefined
+    lineNumber: 36,
+    columnNumber: 11
+  }
 }, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
   article: article,
   excerpt: true,
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
-  },
-  __self: undefined
+    lineNumber: 37,
+    columnNumber: 13
+  }
 }))))), __jsx(_components_molecules_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
-  },
-  __self: undefined
+    lineNumber: 42,
+    columnNumber: 5
+  }
 }));
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
