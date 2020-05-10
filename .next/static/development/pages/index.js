@@ -10869,9 +10869,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/molecules/Article */ "./src/components/molecules/Article/index.js");
 /* harmony import */ var _components_molecules_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/molecules/Footer */ "./src/components/molecules/Footer/index.js");
 /* harmony import */ var _components_molecules_Header___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules/Header/ */ "./src/components/molecules/Header/index.js");
-var _this = undefined,
-    _jsxFileName = "/Users/didier/Projects/digest/src/pages/index.js";
-
+var _jsxFileName = "/Users/didier/Projects/digest/src/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -10883,7 +10881,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var articles = [{
   title: "Earth had its second-warmest March ever recorded.",
-  url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566l',
+  url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566',
   author: 'Denise Chow',
   source: 'NBC News',
   sourceUrl: 'https://www.nbcnews.com/'
@@ -10929,66 +10927,58 @@ var Home = function Home(props) {
     exit: {
       opacity: 0
     },
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 5
-    }
+      lineNumber: 58
+    },
+    __self: this
   }, __jsx(_components_molecules_Header___WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 7
-    }
+      lineNumber: 59
+    },
+    __self: this
   }), __jsx("main", {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 7
-    }
+      lineNumber: 60
+    },
+    __self: this
   }, __jsx("ul", {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 9
-    }
+      lineNumber: 61
+    },
+    __self: this
   }, articles.map(function (article, idx) {
     return __jsx("li", {
       key: idx,
-      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63,
-        columnNumber: 13
-      }
+        lineNumber: 63
+      },
+      __self: this
     }, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
       article: article,
       excerpt: true,
-      __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
-        columnNumber: 15
-      }
+        lineNumber: 64
+      },
+      __self: this
     }));
   }))), showInstallMessage === true && __jsx(_components_atoms_InstallPopup__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
-      columnNumber: 39
-    }
+      lineNumber: 69
+    },
+    __self: this
   }), __jsx(_components_molecules_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 7
-    }
+      lineNumber: 70
+    },
+    __self: this
   }));
 };
 
@@ -10996,7 +10986,7 @@ var Home = function Home(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fdidier%2FProjects%2Fdigest%2Fsrc%2Fpages%2Findex.js&hotRouterUpdates=true ***!
   \*****************************************************************************************************************************************************/
@@ -11019,5 +11009,5 @@ module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

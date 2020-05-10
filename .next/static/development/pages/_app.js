@@ -14321,10 +14321,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/main.scss */ "./src/styles/main.scss");
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_main_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-
-var _this = undefined,
-    _jsxFileName = "/Users/didier/Projects/digest/src/pages/_app.js";
-
+var _jsxFileName = "/Users/didier/Projects/digest/src/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -14344,134 +14341,112 @@ var App = function App(_ref) {
       pageProps = _ref.pageProps,
       router = _ref.router;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 7
-    }
+      lineNumber: 24
+    },
+    __self: this
   }, __jsx("link", {
     href: "https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap",
     rel: "stylesheet",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
-    }
+      lineNumber: 25
+    },
+    __self: this
   }), __jsx("link", {
     rel: "shortcut icon",
     href: "./assets/favicon-32.png",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 9
-    }
+      lineNumber: 27
+    },
+    __self: this
   }), __jsx("link", {
     rel: "apple-touch-icon",
     sizes: "180x180",
     href: "./assets/apple-touch-icon.png",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 9
-    }
+      lineNumber: 28
+    },
+    __self: this
   }), __jsx("meta", {
     name: "apple-mobile-web-app-status-bar-style",
     content: "default",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 9
-    }
+      lineNumber: 29
+    },
+    __self: this
   }), __jsx("link", {
     rel: "icon",
     type: "image/png",
     sizes: "32x32",
     href: "./assets/favicon-32x32.png",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
-    }
+      lineNumber: 30
+    },
+    __self: this
   }), __jsx("link", {
     rel: "icon",
     type: "image/png",
     sizes: "16x16",
     href: "./assets/favicon-16x16.png",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 9
-    }
+      lineNumber: 31
+    },
+    __self: this
   }), __jsx("meta", {
     name: "msapplication-config",
     content: "./assets/browserconfig.xml",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 9
-    }
+      lineNumber: 32
+    },
+    __self: this
   }), __jsx("meta", {
     name: "msapplication-TileColor",
     content: "#ffffff",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 9
-    }
+      lineNumber: 33
+    },
+    __self: this
   }), __jsx("meta", {
     name: "apple-mobile-web-app-capable",
     content: "yes",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 9
-    }
+      lineNumber: 34
+    },
+    __self: this
   }), __jsx("meta", {
     name: "theme-color",
     content: "#ffffff",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 9
-    }
-  }), __jsx("link", {
-    rel: "manifest",
-    href: "assets/manifest.json",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 9
-    }
+      lineNumber: 35
+    },
+    __self: this
   }), __jsx("link", {
     rel: "manifest",
     href: "assets/site.webmanifest",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 9
-    }
+      lineNumber: 36
+    },
+    __self: this
   }), __jsx("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1.0",
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 9
-    }
+      lineNumber: 38
+    },
+    __self: this
   })), __jsx(next_seo__WEBPACK_IMPORTED_MODULE_3__["NextSeo"], {
     title: title,
     description: description,
@@ -14481,28 +14456,25 @@ var App = function App(_ref) {
       description: description,
       site_name: name
     },
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 7
-    }
+      lineNumber: 40
+    },
+    __self: this
   }), __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_4__["AnimatePresence"], {
     exitBeforeEnter: true,
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 7
-    }
+      lineNumber: 52
+    },
+    __self: this
   }, __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
     key: router.route,
-    __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 9
-    }
+      lineNumber: 53
+    },
+    __self: this
   }))));
 };
 

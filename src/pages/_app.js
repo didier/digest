@@ -33,7 +33,6 @@ const App = ({ Component, pageProps, router }) => {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="theme-color" content="#ffffff" />
-        <link rel='manifest' href='assets/manifest.json' />
         <link rel="manifest" href="assets/site.webmanifest" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
