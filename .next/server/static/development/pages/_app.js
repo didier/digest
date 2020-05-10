@@ -134,138 +134,169 @@ const App = ({
   Component,
   pageProps,
   router
-}) => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 20,
-    columnNumber: 5
-  }
-}, __jsx("link", {
-  href: "https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap",
-  rel: "stylesheet",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "shortcut icon",
-  href: "/img/favicon/favicon-32.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 22,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "128x128",
-  href: "/img/favicon/favicon-128.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 23,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "152x152",
-  href: "/img/favicon/favicon-152.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 24,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "167x167",
-  href: "/img/favicon/favicon-167.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "180x180",
-  href: "/img/favicon/favicon-180.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "192x192",
-  href: "/img/favicon/favicon-192.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27,
-    columnNumber: 7
-  }
-}), __jsx("link", {
-  rel: "icon",
-  type: "image/png",
-  sizes: "196x196",
-  href: "/img/favicon/favicon-196.png",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 28,
-    columnNumber: 7
-  }
-}), __jsx("meta", {
-  name: "viewport",
-  content: "width=device-width, initial-scale=1.0",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 29,
-    columnNumber: 7
-  }
-})), __jsx(next_seo__WEBPACK_IMPORTED_MODULE_2__["NextSeo"], {
-  title: title,
-  description: description,
-  openGraph: {
-    url: 'https://digest-delta.now.sh',
-    title: name,
-    description,
-    site_name: name
-  },
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31,
-    columnNumber: 5
-  }
-}), __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_3__["AnimatePresence"], {
-  exitBeforeEnter: true,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 42,
-    columnNumber: 5
-  }
-}, __jsx(Component, _extends({}, pageProps, {
-  key: router.route,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 43,
-    columnNumber: 7
-  }
-}))));
+}) => {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 7
+    }
+  }, __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap",
+    rel: "stylesheet",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "shortcut icon",
+    href: "./assets/favicon-32.png",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "apple-touch-icon",
+    sizes: "180x180",
+    href: "./assets/apple-touch-icon.png",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "apple-mobile-web-app-status-bar-style",
+    content: "default",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "32x32",
+    href: "./assets/favicon-32x32.png",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "icon",
+    type: "image/png",
+    sizes: "16x16",
+    href: "./assets/favicon-16x16.png",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "msapplication-config",
+    content: "./assets/browserconfig.xml",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "msapplication-TileColor",
+    content: "#ffffff",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "apple-mobile-web-app-capable",
+    content: "yes",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "theme-color",
+    content: "#ffffff",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "manifest",
+    href: "assets/manifest.json",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 9
+    }
+  }), __jsx("link", {
+    rel: "manifest",
+    href: "assets/site.webmanifest",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 9
+    }
+  }), __jsx("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1.0",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  })), __jsx(next_seo__WEBPACK_IMPORTED_MODULE_2__["NextSeo"], {
+    title: title,
+    description: description,
+    openGraph: {
+      url: 'https://digest-delta.now.sh',
+      title: name,
+      description,
+      site_name: name
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 7
+    }
+  }), __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_3__["AnimatePresence"], {
+    exitBeforeEnter: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 7
+    }
+  }, __jsx(Component, _extends({}, pageProps, {
+    key: router.route,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54,
+      columnNumber: 9
+    }
+  }))));
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
 

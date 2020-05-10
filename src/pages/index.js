@@ -1,8 +1,11 @@
-import Head from 'next/head'
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'
+
+// Components
+import InstallPopup from '../components/atoms/InstallPopup'
 import Article from '../components/molecules/Article'
-import Header from '../components/molecules/Header/index';
 import Footer from '../components/molecules/Footer';
+import Header from '../components/molecules/Header/';
 
 const articles = [
   {
@@ -31,20 +34,41 @@ const articles = [
   },
 ]
 
-const Home = props => (
-  <motion.div exit={{ opacity: 0 }}>
-    <Header />
-    <main>
-      <ul>
-        {articles.map((article, idx) => (
-          <li key={idx}>
-            <Article article={article} excerpt></Article>
-          </li>
-        ))}
-      </ul>
-    </main>
-    <Footer />
-  </motion.div>
-)
+const Home = props => {
 
+  const [showInstallMessage, setShowInstallMessage] = useState(false)
+
+  useEffect(() => {
+    // Detects if device is on iOS 
+    const isIos = () => {
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test(userAgent);
+    }
+    // Detects if device is in standalone mode
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+    if (isIos() && !isInStandaloneMode()) {
+      setShowInstallMessage(true)
+    }
+    // Checks if should display install popup notification:
+    return
+  }, [])
+
+  return (
+    <motion.div exit={{ opacity: 0 }}>
+      <Header />
+      <main>
+        <ul>
+          {articles.map((article, idx) => (
+            <li key={idx}>
+              <Article article={article} excerpt></Article>
+            </li>
+          ))}
+        </ul>
+      </main>
+      {showInstallMessage === true && <InstallPopup />}
+      <Footer />
+    </motion.div>
+  )
+}
 export default Home

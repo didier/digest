@@ -1,0 +1,18 @@
+@import '../../../styles/base/variables';
+
+.popup {
+  // margin-top: 6rem;
+  width: 100%;
+  padding: 12px 24px;
+  color: $accent-dark;
+}
+
+.share {
+  // max-width: 100%;
+  max-height: 1em;
+  transform: translateY(-.2em);
+  padding: 4px 4px;
+  box-sizing: content-box;
+  border-radius: 2px;
+  border: 1px solid $accent-dark
+}

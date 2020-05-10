@@ -88,10 +88,69 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./src/components/atoms/InstallPopup/InstallPopup.module.scss":
+/*!********************************************************************!*\
+  !*** ./src/components/atoms/InstallPopup/InstallPopup.module.scss ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"popup": "InstallPopup_popup__de4t1",
+	"share": "InstallPopup_share__36I3H"
+};
+
+
+/***/ }),
+
+/***/ "./src/components/atoms/InstallPopup/index.js":
+/*!****************************************************!*\
+  !*** ./src/components/atoms/InstallPopup/index.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _InstallPopup_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./InstallPopup.module.scss */ "./src/components/atoms/InstallPopup/InstallPopup.module.scss");
+/* harmony import */ var _InstallPopup_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_InstallPopup_module_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/didier/Projects/digest/src/components/atoms/InstallPopup/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const InstallPopup = () => {
+  return __jsx("p", {
+    className: _InstallPopup_module_scss__WEBPACK_IMPORTED_MODULE_1__["popup"],
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 5
+    }
+  }, "If you'd like to stay up to date, install Digest by clicking on ", __jsx("img", {
+    className: _InstallPopup_module_scss__WEBPACK_IMPORTED_MODULE_1__["share"],
+    src: "./images/share.svg",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 71
+    }
+  }), " followed by 'Add to homescreen'");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (InstallPopup);
+
+/***/ }),
 
 /***/ "./src/components/molecules/Article/Article.module.scss":
 /*!**************************************************************!*\
@@ -162,7 +221,6 @@ const Article = ({
     fetch(`/api/shares?url=${url}`).then(res => res.json()).then(result => {
       setItems(result);
       setIsLoaded(true);
-      console.log(result);
     }, // Note: it's important to handle errors here
     // instead of a catch() block so that we don't swallow
     // exceptions from actual bugs in components.
@@ -176,14 +234,14 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 48,
       columnNumber: 5
     }
   }, __jsx("h2", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 7
     }
   }, __jsx("a", {
@@ -191,7 +249,7 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 50,
       columnNumber: 11
     }
   }, title)), __jsx("cite", {
@@ -199,7 +257,7 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 54,
       columnNumber: 7
     }
   }, __jsx("img", {
@@ -209,7 +267,7 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 9
     }
   }), ` — ${author}, `, __jsx("a", {
@@ -217,7 +275,7 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 55,
       columnNumber: 127
     }
   }, source)), ` `, __jsx("h6", {
@@ -226,7 +284,7 @@ const Article = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 58,
       columnNumber: 7
     }
   }, isLoaded === true ? new Intl.NumberFormat().format(items['Facebook']['share_count']) : 'Loading', " shares", isLoaded === true ? null : '...'));
@@ -360,16 +418,17 @@ const Header = () => __jsx("header", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ "framer-motion");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(framer_motion__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ "framer-motion");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(framer_motion__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_atoms_InstallPopup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/atoms/InstallPopup */ "./src/components/atoms/InstallPopup/index.js");
 /* harmony import */ var _components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/molecules/Article */ "./src/components/molecules/Article/index.js");
-/* harmony import */ var _components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/molecules/Header/index */ "./src/components/molecules/Header/index.js");
-/* harmony import */ var _components_molecules_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules/Footer */ "./src/components/molecules/Footer/index.js");
+/* harmony import */ var _components_molecules_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/molecules/Footer */ "./src/components/molecules/Footer/index.js");
+/* harmony import */ var _components_molecules_Header___WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules/Header/ */ "./src/components/molecules/Header/index.js");
 var _jsxFileName = "/Users/didier/Projects/digest/src/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+ // Components
 
 
 
@@ -395,68 +454,98 @@ const articles = [{
   sourceUrl: 'https://www.washingtonpost.com/'
 }];
 
-const Home = props => __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__["motion"].div, {
-  exit: {
-    opacity: 0
-  },
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35,
-    columnNumber: 3
-  }
-}, __jsx(_components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 36,
-    columnNumber: 5
-  }
-}), __jsx("main", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 37,
-    columnNumber: 5
-  }
-}, __jsx("ul", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38,
-    columnNumber: 7
-  }
-}, articles.map((article, idx) => __jsx("li", {
-  key: idx,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40,
-    columnNumber: 11
-  }
-}, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  article: article,
-  excerpt: true,
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 41,
-    columnNumber: 13
-  }
-}))))), __jsx(_components_molecules_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 46,
-    columnNumber: 5
-  }
-}));
+const Home = props => {
+  const {
+    0: showInstallMessage,
+    1: setShowInstallMessage
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    // Detects if device is on iOS 
+    const isIos = () => {
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test(userAgent);
+    }; // Detects if device is in standalone mode
+
+
+    const isInStandaloneMode = () => 'standalone' in window.navigator && window.navigator.standalone;
+
+    if (isIos() && !isInStandaloneMode()) {
+      setShowInstallMessage(true);
+    } // Checks if should display install popup notification:
+
+
+    return;
+  }, []);
+  return __jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__["motion"].div, {
+    exit: {
+      opacity: 0
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 5
+    }
+  }, __jsx(_components_molecules_Header___WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 7
+    }
+  }), __jsx("main", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 7
+    }
+  }, __jsx("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 9
+    }
+  }, articles.map((article, idx) => __jsx("li", {
+    key: idx,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 13
+    }
+  }, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    article: article,
+    excerpt: true,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 15
+    }
+  }))))), showInstallMessage === true && __jsx(_components_atoms_InstallPopup__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 39
+    }
+  }), __jsx(_components_molecules_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 7
+    }
+  }));
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./src/pages/index.js ***!
   \**********************************/
@@ -476,17 +565,6 @@ module.exports = __webpack_require__(/*! /Users/didier/Projects/digest/src/pages
 /***/ (function(module, exports) {
 
 module.exports = require("framer-motion");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/head");
 
 /***/ }),
 

@@ -30,7 +30,6 @@ const Article = ({ article, excerpt }) => {
         (result) => {
           setItems(result);
           setIsLoaded(true);
-          console.log(result);
 
         },
         // Note: it's important to handle errors here

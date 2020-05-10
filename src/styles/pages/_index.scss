@@ -4,8 +4,14 @@ footer {
   margin: 0 auto;
   max-width: 840px;
   padding: 0 24px;
+
+  // TODO: add CSS custom properties instead of SCSS variables
 }
 
 img {
   max-width: 100%;
+}
+
+main {
+  margin-bottom: 4rem;
 }

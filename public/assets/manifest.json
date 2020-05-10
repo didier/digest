@@ -1,0 +1,42 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Digest",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://digest-delta.now.sh/",
+  "short_name": "Digest",
+  "theme_color": "transparent",
+  "description": "News you might've missed",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [{
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-152.png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-167.png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-180.png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://digest-delta.now.sh/img/favicon/favicon-196.png",
+      "sizes": "196x196"
+    }
+  ],
+  "url": "https://digest-delta.now.sh",
+  "generated": "true"
+}
