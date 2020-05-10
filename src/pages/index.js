@@ -10,7 +10,7 @@ import Header from '../components/molecules/Header/';
 const articles = [
   {
     title: `Earth had its second-warmest March ever recorded.`,
-    url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566l',
+    url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566',
 
     author: 'Denise Chow',
     source: 'NBC News',
