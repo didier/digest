@@ -11366,19 +11366,23 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var articles = [{
+  title: "Earth had its second-warmest March ever recorded.",
+  url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566l',
+  author: 'Denise Chow',
+  source: 'NBC News',
+  sourceUrl: 'https://www.nbcnews.com/'
+}, {
   title: "Pentagon officially releases UFO videos.",
   url: 'https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos/index.html',
   author: 'Michael Conte',
   source: 'CNN',
-  sourceUrl: 'https://cnn.com',
-  post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis quasi exercitationem qui aut, nemo numquam repudiandae reiciendis accusantium magni, doloribus non maiores. Hic, et repellendus cumque dicta ea itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic obcaecati maiores odit reprehenderit repudiandae, aliquid quis ea facilis doloremque, nisi placeat voluptatum dolores sint sunt, explicabo cum ratione! Incidunt tempora earum eum temporibus saepe aliquam molestias, laborum asperiores sed?"
+  sourceUrl: 'https://cnn.com'
 }, {
   title: "Suspect in New Zealand mosque shootings unexpectedly pleads guilty to 51 murder charges.",
   url: 'https://www.washingtonpost.com/world/asia_pacific/suspect-in-new-zealand-mosque-shootings-unexpectedly-pleads-guilty-to-51-murder-charges/2020/03/26/08b0b6fc-6f01-11ea-a156-0048b62cdb51_story.html',
   author: 'Emanuel Stoakes',
   source: 'The Washington Post',
-  sourceUrl: 'https://www.washingtonpost.com/',
-  post: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis quasi exercitationem qui aut, nemo numquam repudiandae reiciendis accusantium magni, doloribus non maiores. Hic, et repellendus cumque dicta ea itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic obcaecati maiores odit reprehenderit repudiandae, aliquid quis ea facilis doloremque, nisi placeat voluptatum dolores sint sunt, explicabo cum ratione! Incidunt tempora earum eum temporibus saepe aliquam molestias, laborum asperiores sed?"
+  sourceUrl: 'https://www.washingtonpost.com/'
 }];
 
 var Home = function Home(props) {
@@ -11389,28 +11393,28 @@ var Home = function Home(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 35,
       columnNumber: 3
     }
   }, __jsx(_components_molecules_Header_index__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 5
     }
   }), __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 37,
       columnNumber: 5
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 7
     }
   }, articles.map(function (article, idx) {
@@ -11419,7 +11423,7 @@ var Home = function Home(props) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 40,
         columnNumber: 11
       }
     }, __jsx(_components_molecules_Article__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -11428,7 +11432,7 @@ var Home = function Home(props) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 41,
         columnNumber: 13
       }
     }));
@@ -11436,7 +11440,7 @@ var Home = function Home(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 46,
       columnNumber: 5
     }
   }));

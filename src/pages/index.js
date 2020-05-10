@@ -6,14 +6,20 @@ import Footer from '../components/molecules/Footer';
 
 const articles = [
   {
+    title: `Earth had its second-warmest March ever recorded.`,
+    url: 'https://www.nbcnews.com/science/environment/earth-had-its-second-warmest-march-ever-recorded-n1185566l',
+
+    author: 'Denise Chow',
+    source: 'NBC News',
+    sourceUrl: 'https://www.nbcnews.com/',
+  },
+  {
     title: `Pentagon officially releases UFO videos.`,
     url: 'https://edition.cnn.com/2020/04/27/politics/pentagon-ufo-videos/index.html',
 
     author: 'Michael Conte',
     source: 'CNN',
     sourceUrl: 'https://cnn.com',
-
-    post: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis quasi exercitationem qui aut, nemo numquam repudiandae reiciendis accusantium magni, doloribus non maiores. Hic, et repellendus cumque dicta ea itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic obcaecati maiores odit reprehenderit repudiandae, aliquid quis ea facilis doloremque, nisi placeat voluptatum dolores sint sunt, explicabo cum ratione! Incidunt tempora earum eum temporibus saepe aliquam molestias, laborum asperiores sed?`
   },
   {
     title: `Suspect in New Zealand mosque shootings unexpectedly pleads guilty to 51 murder charges.`,
@@ -22,8 +28,6 @@ const articles = [
     author: 'Emanuel Stoakes',
     source: 'The Washington Post',
     sourceUrl: 'https://www.washingtonpost.com/',
-
-    post: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis quasi exercitationem qui aut, nemo numquam repudiandae reiciendis accusantium magni, doloribus non maiores. Hic, et repellendus cumque dicta ea itaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic obcaecati maiores odit reprehenderit repudiandae, aliquid quis ea facilis doloremque, nisi placeat voluptatum dolores sint sunt, explicabo cum ratione! Incidunt tempora earum eum temporibus saepe aliquam molestias, laborum asperiores sed?`
   },
 ]
 
