@@ -4,7 +4,7 @@
   // margin-top: 6rem;
   width: 100%;
   padding: 12px 24px;
-  color: $accent-dark;
+  color: var(--accent);
 }
 
 .share {
@@ -14,5 +14,5 @@
   padding: 4px 4px;
   box-sizing: content-box;
   border-radius: 2px;
-  border: 1px solid $accent-dark
+  border: 1px solid var(--accent)
 }

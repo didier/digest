@@ -47,7 +47,7 @@ const Article = ({ article, excerpt }) => {
   return (
     <article className={post}>
 
-      <h2><a href={url}>{title}</a></h2>
+      <h2><a href={url} target="_blank" rel="noopener noreferrer">{title}</a></h2>
       {/* <p className="excerpt">
         {excerpt ? `${post.slice(0, 140)}...` : post}
       </p> */}

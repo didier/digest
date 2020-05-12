@@ -1,4 +1,20 @@
 // @import url('https://rsms.me/inter/inter.css');
+
+:root {
+  --white: white;
+  --black: #1A202C;
+
+  --accent: #59656F;
+  --bg: var(--white);
+  --text: var(--black);
+  
+  @media screen and (prefers-color-scheme: dark){
+    --bg: var(--black);
+    --text: var(--white);
+    --accent: #C4A69D
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -13,17 +29,17 @@ html,
 body {
   font-family: $font-fallbacks, sans-serif;
   // font-size: 20px;
-  background: white;
-  color: black;
+  background: var(--bg);
+  color: var(--text);
 }
 
 a,
 a:visited {
   cursor: pointer;
   color: currentColor;
-  border-bottom: 1px solid $accent-light;
+  border-bottom: 1px solid var(--accent);
   text-decoration: none;
-  background-image: linear-gradient($accent-light, $accent-light);
+  background-image: linear-gradient(var(--accent), var(--accent));
   background-position: 0% 100%;
   background-repeat: no-repeat;
   background-size: 0% 2px;
@@ -34,3 +50,6 @@ a:visited {
     background-size: 100% 2px;
   }
 }
+
+
+
