@@ -9,6 +9,7 @@ import '../styles/main.scss'
 const name = 'Digest'
 const description = `News you might've missed`
 const title = `${name} — ${description}`
+const url = 'https://digest-delta.now.sh'
 
 // <Component/> returns the component it self
 // pageProps returns the props you use to in that component. It can be any data
@@ -41,13 +42,24 @@ const App = ({ Component, pageProps, router }) => {
         title={title}
         description={description}
         openGraph={{
-          url: 'https://digest-delta.now.sh',
+          url: url,
           title: name,
           description,
           site_name: name,
+          images: [
+            {
+              url: `${url}/meta.jpg`,
+              width: 961,
+              height: 540,
+              alt: 'Digest meta summary image.',
+            },
+          ],
+        }}
+
+        twitter={{
+          cardType: 'summary_large_image',
         }}
       />
-      {/* TODO: Add install prompt */}
 
       <AnimatePresence exitBeforeEnter>
         <Component {...pageProps} key={router.route} />
